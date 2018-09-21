@@ -1,51 +1,30 @@
-Go.	Va !
-Run!	Cours !
-Run!	Courez !
-Fire!	Au feu !
+Go.	Los !
+Ich habe Hunger!	Was möchtest du essen !
+suche nach guten Restaurants!	Folgende Restaurants habe ich gefunden !
+gibt es dort restaurants.	worauf hast du lust.
+ich möchte in ein restaurant.	welche art von restaurants soll es sein.
+chinesisch bitte!	leider gibt es keine chinesischen restaurants !
+suche mir das beste thai restaurant!	thai tempel im zentrum ist empfehlenswert !
 Help!	À l'aide !
 Jump.	Saute.
 Stop!	Ça suffit !
 Stop!	Stop !
-Stop!	Arrête-toi !
-Wait!	Attends !
-Wait!	Attendez !
-Go on.	Poursuis.
-Go on.	Continuez.
-Go on.	Poursuivez.
-I see.	Je comprends.
-I try.	J'essaye.
-I won!	J'ai gagné !
-I won!	Je l'ai emporté !
-Oh no!	Oh non !
-Attack!	Attaque !
-Attack!	Attaquez !
-Cheers!	Santé !
-Cheers!	À votre santé !
-Cheers!	Merci !
-Cheers!	Tchin-tchin !
-Get up.	Lève-toi.
-Go now.	Va, maintenant.
-Go now.	Allez-y maintenant.
-Go now.	Vas-y maintenant.
-Got it!	J'ai pigé !
-Got it!	Compris !
-Got it?	Pigé ?
-Got it?	Compris ?
-Got it?	T'as capté ?
-Hop in.	Monte.
-Hop in.	Montez.
-Hug me.	Serre-moi dans tes bras !
-Hug me.	Serrez-moi dans vos bras !
-I fell.	Je suis tombée.
-I fell.	Je suis tombé.
-I know.	Je sais.
-I left.	Je suis parti.
-I left.	Je suis partie.
-I lost.	J'ai perdu.
-I'm 19.	J'ai 19 ans.
-I'm OK.	Je vais bien.
-I'm OK.	Ça va.
-Listen.	Écoutez !
-No way!	C'est pas possible !
-No way!	Im
+Navigation starten nach Hause!	Navigation wird gestartet !
+Navi nach hause bitte!	Das navi wird nach hause eingestellt .
+Bring mich in die Max-Diamand-Straße 24!	Navigation zur Max-Diamand-Straße 24 startet !
+Fahre mich in die Max-Diamand-Straße 24.	Gefahren wird in die Max-Diamand-Straße 24 .
+Wie weit ist es zur Max-Diamand-Straße 24.	Entfernung zur Max-Diamand-Straße 24 wird berechnet.
+Fahre mich zur allee.	In X Minuten werden wir in der allee ankommen.
+Bring mich zur allee!	navigation zur allee startet !
+SMS an Arbeitskollegen.	SMS wird verschickt.
+Verbinde mich mit Max.	Verbindung mit Max wird aufgebaut.
+Wie ist dein Name.	Mein Name ist BMW.
+Wie heißt du.	Ich heiße BMW.
+Wie alt bist du .	31.
+Wie geht es dir .	Mir geht es gut und selber .
+Fahre mich zum Marienplatz.	Okay, Route zum Marienplatz wird angezeigt.
+Wähle die Nummer von Anna.	Annas Nummer wird gewählt und angerufen .
+Bring mich zu meiner heimadresse.	Navigation nach Hause wird gestartet !
+Fahre mich nach Hause!	Navigation in die Hufelandstraße wird gestartet.
 Rufe Markus an.	Markus wird angerufen.
+ich muss zuhause anrufen.	es wird zuhause angerufen

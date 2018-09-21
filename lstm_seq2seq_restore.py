@@ -15,7 +15,7 @@ from keras.layers import Input
 import numpy as np
 
 batch_size = 64  # Batch size for training.
-epochs = 100  # Number of epochs to train for.
+epochs = 1000  # Number of epochs to train for.
 latent_dim = 256  # Latent dimensionality of the encoding space.
 num_samples = 10000  # Number of samples to train on.
 # Path to the data txt file on disk.
@@ -140,7 +140,7 @@ def decode_sequence(input_seq):
     return decoded_sentence
 
 
-for seq_index in range(5):
+for seq_index in range(30):
     # Take one sequence (part of the training set)
     # for trying out decoding.
     input_seq = encoder_input_data[seq_index: seq_index + 1]
