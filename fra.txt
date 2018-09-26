@@ -1,13 +1,13 @@
-Go.	Los !
-Ich habe Hunger!	Was möchtest du essen !
-suche nach guten Restaurants!	Folgende Restaurants habe ich gefunden !
-gibt es dort restaurants.	worauf hast du lust.
-ich möchte in ein restaurant.	welche art von restaurants soll es sein.
-chinesisch bitte!	leider gibt es keine chinesischen restaurants !
-suche mir das beste thai restaurant!	thai tempel im zentrum ist empfehlenswert !
-Help!	À l'aide !
-Jump.	Saute.
-Stop!	Ça suffit !
+starte die navigation zum oktoberfest.	navigation zum oktoberfest wird gestartet .
+fahre mich zum oktoberfest.	sie werden zum oktoberfest navigiert .
+fahre mich zum oktoberfestt.	die beste route zum oktoberfest wird eingestellt .
+fahre mich zum oktoberfest.	zielführung zum oktoberfest wird gestartet.
+fahr mich zum oktoberfest.	okay, ich fahre dich zur wiesn.
+bringe mich zum oktoberfest.	navigation zum oktoberfest wird gestartet .
+bringe mich zum oktoberfest.	sie werden zum oktoberfest navigiert .
+bringe mich zum oktoberfestt.	die beste route zum oktoberfest wird eingestellt .
+bringe mich zum oktoberfest.	zielführung zum oktoberfest wird gestartet.
+bring mich zum oktoberfest.	okay, ich fahre dich zur wiesn.
 Stop!	Stop !
 Navigation starten nach Hause!	Navigation wird gestartet !
 Navi nach hause bitte!	Das navi wird nach hause eingestellt .
@@ -16,15 +16,8 @@ Fahre mich in die Max-Diamand-Straße 24.	Gefahren wird in die Max-Diamand-Stra�
 Wie weit ist es zur Max-Diamand-Straße 24.	Entfernung zur Max-Diamand-Straße 24 wird berechnet.
 Fahre mich zur allee.	In X Minuten werden wir in der allee ankommen.
 Bring mich zur allee!	navigation zur allee startet !
-SMS an Arbeitskollegen.	SMS wird verschickt.
-Verbinde mich mit Max.	Verbindung mit Max wird aufgebaut.
-Wie ist dein Name.	Mein Name ist BMW.
-Wie heißt du.	Ich heiße BMW.
-Wie alt bist du .	31.
-Wie geht es dir .	Mir geht es gut und selber .
 Fahre mich zum Marienplatz.	Okay, Route zum Marienplatz wird angezeigt.
-Wähle die Nummer von Anna.	Annas Nummer wird gewählt und angerufen .
-Bring mich zu meiner heimadresse.	Navigation nach Hause wird gestartet !
-Fahre mich nach Hause!	Navigation in die Hufelandstraße wird gestartet.
-Rufe Markus an.	Markus wird angerufen.
+bring mich zum Marienplatz.	sie werden zum marienplatz gebracht .
+bring mich zu meiner heimadresse.	Navigation nach Hause wird gestartet !
+fahre mich nach hause!	Navigation in die Hufelandstraße wird gestartet.
 ich muss zuhause anrufen.	es wird zuhause angerufen
