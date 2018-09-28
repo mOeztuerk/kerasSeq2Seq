@@ -65,8 +65,7 @@ target_token_index = dict(
 
 encoder_input_data = np.zeros(
     (len(input_texts), max_encoder_seq_length, num_encoder_tokens),
-    dtype='float32')
-
+    dtype=np.int)
 for i, input_text in enumerate(input_texts):
     for t, char in enumerate(input_text):
         encoder_input_data[i, t, input_token_index[char]] = 1.
@@ -140,13 +139,85 @@ def decode_sequence(input_seq):
     return decoded_sentence
 
 
-
+np.set_printoptions(threshold=np.inf)
+"""
 for seq_index in range(len(input_texts)):
     # Take one sequence (part of the training set)
     # for trying out decoding.
     input_seq = encoder_input_data[seq_index: seq_index + 1]
     decoded_sentence = decode_sequence(input_seq)
+    print(input_seq)
+    print(input_seq.shape)
+
     print('-')
     print('Input sentence:', input_texts[seq_index])
     print('Decoded sentence:', decoded_sentence)
+    break
+"""
 
+
+#EIGENER ANSATZ
+
+input_charTEST = set()
+
+textTEST = ['stop', 'fahre mich zur allee']
+
+for sentence in textTEST:
+
+    for char in sentence:
+        if char not in input_charTEST:
+            input_charTEST.add(char)
+
+input_charTEST = sorted(list(input_charTEST))
+print(input_charTEST)
+
+input_token_index_TEST = dict(
+    [(char, i) for i, char in enumerate(input_charTEST)])
+
+encoderTEST = np.zeros((len(textTEST), 42, 38), dtype=np.int)
+
+for i, text in enumerate(textTEST):
+    for t, char in enumerate(text):
+        encoderTEST[i, t, input_token_index_TEST[char]] = 1
+
+print(encoderTEST[1:2])
+input_seq = encoderTEST[1:2]
+decoded_sentence = decode_sequence(input_seq)
+print(decoded_sentence)
+
+
+
+"""
+print(encoder_input_data)
+print("###############################")
+print(encoder_input_data[0: 1])
+
+a= np.zeros(5, dtype=np.int)
+print(a)
+print(list(a))
+"""
+"""
+from numpy import argmax
+data='hello world'
+print(data)
+alphabet = 'abcdefghijklmnopqrstuvwxyz '
+
+char_to_int = dict((c, i) for i, c in enumerate(alphabet))
+int_to_char = dict((i, c) for i, c in enumerate(alphabet))
+
+integer_encoded = [char_to_int[char] for char in data]
+print(integer_encoded)
+
+onehot_encoded=list()
+for value in integer_encoded:
+    letter = [0 for _ in range(len(alphabet))]
+    letter[value] = 1
+    onehot_encoded.append(letter)
+print(onehot_encoded)
+
+inverted = int_to_char[argmax(onehot_encoded[0])]
+print(inverted)
+
+decoded_sentence = decode_sequence(onehot_encoded)
+print(decoded_sentence)
+"""
