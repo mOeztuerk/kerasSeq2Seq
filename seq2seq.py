@@ -55,7 +55,7 @@ from keras.layers import Input, LSTM, Dense, Embedding
 import numpy as np
 
 batch_size = 64  # Batch size for training.
-epochs = 60000  #100 Number of epochs to train for.
+epochs = 6000  #100 Number of epochs to train for.
 latent_dim = 256  # Latent dimensionality of the encoding space.
 num_samples = 10000  # Number of samples to train on.
 # Path to the data txt file on disk.
@@ -81,6 +81,14 @@ for line in lines[: min(num_samples, len(lines) - 1)]:
     for char in target_text:
         if char not in target_characters:
             target_characters.add(char)
+#----------------
+alphabet = ' abcdefghijklmnopqrstuvwxyzßMFN'
+for char in alphabet:
+    if char not in input_characters:
+        input_characters.add(char)
+for char in alphabet:
+    if char not in target_characters:
+        target_characters.add(char)
 
 input_characters = sorted(list(input_characters))
 target_characters = sorted(list(target_characters))
@@ -224,7 +232,7 @@ def decode_sequence(input_seq):
 
     return decoded_sentence
 
-
+print(input_characters)
 for seq_index in range(10):
     # Take one sequence (part of the training set)
     # for trying out decoding.

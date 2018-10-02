@@ -45,6 +45,15 @@ for line in lines[: min(num_samples, len(lines) - 1)]:
         if char not in target_characters:
             target_characters.add(char)
 
+
+alphabet = ' abcdefghijklmnopqrstuvwxyzßMFN'
+for char in alphabet:
+    if char not in input_characters:
+        input_characters.add(char)
+for char in alphabet:
+    if char not in target_characters:
+        target_characters.add(char)
+        
 input_characters = sorted(list(input_characters))
 target_characters = sorted(list(target_characters))
 num_encoder_tokens = len(input_characters)
@@ -140,33 +149,35 @@ def decode_sequence(input_seq):
 
 
 np.set_printoptions(threshold=np.inf)
-"""
 for seq_index in range(len(input_texts)):
     # Take one sequence (part of the training set)
     # for trying out decoding.
     input_seq = encoder_input_data[seq_index: seq_index + 1]
     decoded_sentence = decode_sequence(input_seq)
-    print(input_seq)
-    print(input_seq.shape)
-
     print('-')
     print('Input sentence:', input_texts[seq_index])
     print('Decoded sentence:', decoded_sentence)
-    break
-"""
+    
 
 
 #EIGENER ANSATZ
 
 input_charTEST = set()
 
-textTEST = ['stop', 'fahre mich zur allee']
+textTEST = ['stop', 'stop']
 
+"""
 for sentence in textTEST:
 
     for char in sentence:
         if char not in input_charTEST:
             input_charTEST.add(char)
+"""
+alphabet = ' abcdefghijklmnopqrstuvwxyzßMFN'
+
+for char in alphabet:
+    if char not in input_charTEST:
+        input_charTEST.add(char)
 
 input_charTEST = sorted(list(input_charTEST))
 print(input_charTEST)
@@ -174,18 +185,16 @@ print(input_charTEST)
 input_token_index_TEST = dict(
     [(char, i) for i, char in enumerate(input_charTEST)])
 
-encoderTEST = np.zeros((len(textTEST), 42, 38), dtype=np.int)
+encoderTEST = np.zeros((len(textTEST), 42, len(alphabet)), dtype=np.int)
 
 for i, text in enumerate(textTEST):
     for t, char in enumerate(text):
-        encoderTEST[i, t, input_token_index_TEST[char]] = 1
+        encoderTEST[i, t, input_token_index[char]] = 1
 
 print(encoderTEST[1:2])
 input_seq = encoderTEST[1:2]
 decoded_sentence = decode_sequence(input_seq)
 print(decoded_sentence)
-
-
 
 """
 print(encoder_input_data)

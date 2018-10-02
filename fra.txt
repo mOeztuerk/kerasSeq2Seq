@@ -1,23 +1,23 @@
-starte die navigation zum oktoberfest.	navigation zum oktoberfest wird gestartet .
-fahre mich zum oktoberfest.	sie werden zum oktoberfest navigiert .
-fahre mich zum oktoberfestt.	die beste route zum oktoberfest wird eingestellt .
-fahre mich zum oktoberfest.	zielführung zum oktoberfest wird gestartet.
-fahr mich zum oktoberfest.	okay, ich fahre dich zur wiesn.
-bringe mich zum oktoberfest.	navigation zum oktoberfest wird gestartet .
-bringe mich zum oktoberfest.	sie werden zum oktoberfest navigiert .
-bringe mich zum oktoberfestt.	die beste route zum oktoberfest wird eingestellt .
-bringe mich zum oktoberfest.	zielführung zum oktoberfest wird gestartet.
-bring mich zum oktoberfest.	okay, ich fahre dich zur wiesn.
-Stop!	Stop !
-Navigation starten nach Hause!	Navigation wird gestartet !
-Navi nach hause bitte!	Das navi wird nach hause eingestellt .
-Bring mich in die Max-Diamand-Straße 24!	Navigation zur Max-Diamand-Straße 24 startet !
-Fahre mich in die Max-Diamand-Straße 24.	Gefahren wird in die Max-Diamand-Straße 24 .
-Wie weit ist es zur Max-Diamand-Straße 24.	Entfernung zur Max-Diamand-Straße 24 wird berechnet.
-Fahre mich zur allee.	In X Minuten werden wir in der allee ankommen.
-Bring mich zur allee!	navigation zur allee startet !
-Fahre mich zum Marienplatz.	Okay, Route zum Marienplatz wird angezeigt.
-bring mich zum Marienplatz.	sie werden zum marienplatz gebracht .
-bring mich zu meiner heimadresse.	Navigation nach Hause wird gestartet !
-fahre mich nach hause!	Navigation in die Hufelandstraße wird gestartet.
-ich muss zuhause anrufen.	es wird zuhause angerufen
+starte die navigation zum oktoberfest	navigation zum oktoberfest wird gestartet 
+fahre mich zum oktoberfest	sie werden zum oktoberfest navigiert 
+fahre mich zum oktoberfestt	die beste route zum oktoberfest wird eingestellt
+fahre mich zum oktoberfest	zielführung zum oktoberfest wird gestartet
+fahr mich zum oktoberfest	okay ich fahre dich zur wiesn
+bringe mich zum oktoberfest	navigation zum oktoberfest wird gestartet
+bringe mich zum oktoberfest	sie werden zum oktoberfest navigiert
+bringe mich zum oktoberfestt	die beste route zum oktoberfest wird eingestellt
+bringe mich zum oktoberfest	zielführung zum oktoberfest wird gestartet
+bring mich zum oktoberfest	okay ich fahre dich zur wiesn
+stop	stop 
+navigation starten nach hause	navigation wird gestartet
+navi nach hause bitte	das navi wird nach hause eingestellt
+bring mich in die maxdiamandstraße	navigation zur maxdiamandstraße startet
+fahre mich in die maxdiamandstraße	gefahren wird in die maxdiamandstraße
+wie weit ist es zur maxdiamandstraße	entfernung zur maxdiamandstraße wird berechnet
+fahre mich zur allee	in x minuten werden wir in der allee ankommen
+bring mich zur allee	navigation zur allee startet
+fahre mich zum marienplatz	okay route zum marienplatz wird angezeigt
+bring mich zum marienplatz	sie werden zum marienplatz gebracht
+bring mich zu meiner heimadresse	navigation nach hause wird gestartet
+fahre mich nach hause	navigation in die hufelandstraße wird gestartet
+ich muss zuhause anrufen	es wird zuhause angerufen
