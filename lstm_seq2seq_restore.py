@@ -164,7 +164,7 @@ for seq_index in range(len(input_texts)):
 
 input_charTEST = set()
 
-textTEST = ['stop', 'stop']
+textTEST = ['stop', 'fahr mich zu wiese']
 
 """
 for sentence in textTEST:
