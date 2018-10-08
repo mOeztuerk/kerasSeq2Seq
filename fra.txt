@@ -1,23 +1,43 @@
-starte die navigation zum oktoberfest	navigation zum oktoberfest wird gestartet 
-fahre mich zum oktoberfest	sie werden zum oktoberfest navigiert 
-fahre mich zum oktoberfestt	die beste route zum oktoberfest wird eingestellt
-fahre mich zum oktoberfest	zielführung zum oktoberfest wird gestartet
-fahr mich zum oktoberfest	okay ich fahre dich zur wiesn
-bringe mich zum oktoberfest	navigation zum oktoberfest wird gestartet
-bringe mich zum oktoberfest	sie werden zum oktoberfest navigiert
-bringe mich zum oktoberfestt	die beste route zum oktoberfest wird eingestellt
-bringe mich zum oktoberfest	zielführung zum oktoberfest wird gestartet
-bring mich zum oktoberfest	okay ich fahre dich zur wiesn
-stop	stop 
-navigation starten nach hause	navigation wird gestartet
-navi nach hause bitte	das navi wird nach hause eingestellt
-bring mich in die maxdiamandstraße	navigation zur maxdiamandstraße startet
-fahre mich in die maxdiamandstraße	gefahren wird in die maxdiamandstraße
-wie weit ist es zur maxdiamandstraße	entfernung zur maxdiamandstraße wird berechnet
-fahre mich zur allee	in x minuten werden wir in der allee ankommen
-bring mich zur allee	navigation zur allee startet
-fahre mich zum marienplatz	okay route zum marienplatz wird angezeigt
-bring mich zum marienplatz	sie werden zum marienplatz gebracht
-bring mich zu meiner heimadresse	navigation nach hause wird gestartet
-fahre mich nach hause	navigation in die hufelandstraße wird gestartet
-ich muss zuhause anrufen	es wird zuhause angerufen
+starte die navigation zum N	navigation zum N wird gestartet 
+starte die navigation zu M	navigation zu M wird gestartet 
+starte die navigation zur F	navigation zur F wird gestartet
+fahre mich zum N	zielfuehrung zum N wird gestartet
+fahre mich zum M	zielfuehrung zum M wird gestartet
+fahre mich zur F	zielfuehrung zur F wird gestartet
+bringe mich zum N	sie werden zum N navigiert
+bringe mich zum M	sie werden zum M navigiert
+bringe mich zur F	sie werden zur F navigiert
+navigiere mich in das N	du wirst in das N navigiert
+navigiere mich in den M	du wirst in den M navigiert 
+navigiere mich in die F	du wirst in die F navigiert
+navi nach N bitte	das navi wird nach N eingestellt
+navi nach M bitte	das navi wird nach M eingestellt
+navi nach F bitte	das navi wird nach F eingestellt
+wie komme ich zum N	die beste strecke zum N wird angezeigt
+wie komme ich zum M	die beste strecke zum M wird angezeigt
+wie komme ich zur F	die beste strecke zur F wird angezeigt
+ich moechte zum N	okay route zum N wird angezeigt
+ich moechte zum M	okay route zum M wird angezeigt
+ich moechte zur F	okay route zur F wird angezeigt
+fahr mich mal in das N	du wirst in das N gefahren
+fahr mich mal in den M	du wirst in den M gefahren
+fahr mich mal in die F	du wirst in die F gefahren
+bring mich mal zum N	du wirst zum N navigiert
+bring mich mal zum M	du wirst zum M navigiert
+bring mich mal zur F	du wirst zur F navigiert
+ich will jetzt in das N	die route in das N siehst du auf deinem display
+ich will jetzt in den M	die route in den M siehst du auf deinem display
+ich will jetzt in die F	die route in die F siehst du auf deinem display
+ich will zum N	die route zum N siehst du auf deinem display
+ich will zum M	die route zum M siehst du auf deinem display
+ich will zur F	die route zur F siehst du auf deinem display
+bitte in das N	starte zum N
+bitte in den M	starte zum M
+bitte in die F	starte zur F
+bitte sofort in das N	starte sofort zum N
+bitte sofort in den M	starte sofort zum M
+bitte sofort in die F	starte sofort zur F
+wir muessen nach hause	ihr werdet nach hause gebracht
+wir muessen nach hause	ihr werdet schleunigst nach hause gebracht
+wir muessen schleunigst nach hause	ihr werdet nach hause gebracht
+wir muessen schleunigst nach hause	ihr werdet schleunigst nach hause gebracht

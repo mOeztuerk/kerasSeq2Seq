@@ -32,14 +32,6 @@ models are more common in this domain.
     - Repeat until we generate the end-of-sequence character or we
         hit the character limit.
 
-# Data download
-
-English to French sentence pairs.
-http://www.manythings.org/anki/fra-eng.zip
-
-Lots of neat sentence pairs datasets can be found at:
-http://www.manythings.org/anki/
-
 # References
 
 - Sequence to Sequence Learning with Neural Networks

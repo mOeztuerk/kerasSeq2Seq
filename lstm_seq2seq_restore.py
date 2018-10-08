@@ -159,20 +159,88 @@ for seq_index in range(len(input_texts)):
     print('Decoded sentence:', decoded_sentence)
     
 
-
 #EIGENER ANSATZ
+"""
+input_charTEST = set()
+
+textTEST = ['fahr mich mal in die F']
+alphabet = ' abcdefghijklmnopqrstuvwxyzßMFN'
+
+for char in alphabet:
+    if char not in input_charTEST:
+        input_charTEST.add(char)
+
+input_charTEST = sorted(list(input_charTEST))
+print(input_charTEST)
+
+input_token_index_TEST = dict(
+    [(char, i) for i, char in enumerate(input_charTEST)])
+
+encoderTEST = np.zeros((len(textTEST), 42, len(alphabet)), dtype=np.int)
+
+for i, text in enumerate(textTEST):
+    for t, char in enumerate(text):
+        encoderTEST[i, t, input_token_index[char]] = 1
+
+print(encoderTEST[0:1])
+input_seq = encoderTEST[0:1]
+decoded_sentence = decode_sequence(input_seq)
+print(decoded_sentence)
+"""
+
+#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+userInput = "fahr mich mal in die straße"
+
+datenDict = {"marienplatz":"M", "straße":"F", "dorf":"N"}
+
+#textTEST = ' '.join([datenDict.get(i, i) for i in userInput.split()])
+data = userInput.split()
+replacedWord = ''
+for i, j in enumerate(data):
+    if j in datenDict:
+        replacedWord = data[i]
+        data[i]= datenDict[j]
+
+textTEST = " ".join(data)
+print(textTEST) #ich will zur F
+print(replacedWord) #straße
+
+input_charTEST = set()
+alphabet = ' abcdefghijklmnopqrstuvwxyzßMFN'
+
+for char in alphabet:
+    if char not in input_charTEST:
+        input_charTEST.add(char)
+
+input_charTEST = sorted(list(input_charTEST))
+input_token_index_TEST = dict(
+    [(char, i) for i, char in enumerate(input_charTEST)])
+
+encoderTEST = np.zeros((1, 42, len(alphabet)), dtype=np.int)
+
+for t, char in enumerate(textTEST):
+    encoderTEST[0, t, input_token_index[char]] = 1
+
+input_seq = encoderTEST
+decoded_sentence = decode_sequence(input_seq)
+
+#import re
+#decoded_sentence = re.sub("N", replacedWord, decoded_sentence)
+decoded_sentence = decoded_sentence.replace("N", replacedWord)
+decoded_sentence = decoded_sentence.replace("M", replacedWord)
+decoded_sentence = decoded_sentence.replace("F", replacedWord)
+
+print("Benutzereingabe:", userInput)
+print("Systemausgabe:", decoded_sentence)
+
+
+"""
+#erster Ansatz
 
 input_charTEST = set()
 
-textTEST = ['stop', 'fahr mich zu wiese']
-
-"""
-for sentence in textTEST:
-
-    for char in sentence:
-        if char not in input_charTEST:
-            input_charTEST.add(char)
-"""
+textTEST = ['stop', 'wir muessen schleunigst nach hause']
 alphabet = ' abcdefghijklmnopqrstuvwxyzßMFN'
 
 for char in alphabet:
@@ -194,39 +262,5 @@ for i, text in enumerate(textTEST):
 print(encoderTEST[1:2])
 input_seq = encoderTEST[1:2]
 decoded_sentence = decode_sequence(input_seq)
-print(decoded_sentence)
-
-"""
-print(encoder_input_data)
-print("###############################")
-print(encoder_input_data[0: 1])
-
-a= np.zeros(5, dtype=np.int)
-print(a)
-print(list(a))
-"""
-"""
-from numpy import argmax
-data='hello world'
-print(data)
-alphabet = 'abcdefghijklmnopqrstuvwxyz '
-
-char_to_int = dict((c, i) for i, c in enumerate(alphabet))
-int_to_char = dict((i, c) for i, c in enumerate(alphabet))
-
-integer_encoded = [char_to_int[char] for char in data]
-print(integer_encoded)
-
-onehot_encoded=list()
-for value in integer_encoded:
-    letter = [0 for _ in range(len(alphabet))]
-    letter[value] = 1
-    onehot_encoded.append(letter)
-print(onehot_encoded)
-
-inverted = int_to_char[argmax(onehot_encoded[0])]
-print(inverted)
-
-decoded_sentence = decode_sequence(onehot_encoded)
 print(decoded_sentence)
 """
