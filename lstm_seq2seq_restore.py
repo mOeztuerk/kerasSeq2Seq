@@ -190,9 +190,9 @@ print(decoded_sentence)
 
 #$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
-userInput = "bitte in die hufelandstraße"
+userInput = "ich will jetzt in die hufelandstraße"
 
-datenDict = {"marienplatz":"M", "straße":"F", "dorf":"N", "hufelandstraße":"F", "allianzarena" : "F"}
+datenDict = {"marienplatz":"M", "straße":"F", "dorf":"N", "hufelandstraße":"F", "allianzarena" : "F", "ingolstadt" : "N"}
 
 #textTEST = ' '.join([datenDict.get(i, i) for i in userInput.split()])
 data = userInput.split()
